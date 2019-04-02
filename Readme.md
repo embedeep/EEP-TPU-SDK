@@ -5,7 +5,7 @@
 By using EEPTPU's compiler and library, you can develop your own application and run it on your board with EEPTPU IP.
 
 ### Usage / Examples
-Please see the each folder's readme.
+Please see each folder's readme.
 
 ### Contact
 When encounter problems of EEPTPU compiler and library, you can email us or left issues in the repository, we will be happy to answer them.
