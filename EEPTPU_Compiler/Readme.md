@@ -1,11 +1,11 @@
 ## EEP-TPU Compiler
-*eeptpu_compiler* is the EEP-TPU's compiler, it can convert the caffe prototxt and caffemodel files to our EEPTPU's binary file. 
+*eeptpu_compiler* is the EEP-TPU's compiler, it can convert the caffe prototxt and caffemodel files to our EEP-TPU's binary file. 
 
-The output *eeptpu.bin* is suitable for commercial platform EEPTPU-N1C8A3, NOT for Free-TPU.
+The output *eeptpu.bin* is suitable for commercial platform EEP-TPU-N1C8A3, NOT for Free-TPU.
 
-You can use our compiler to quickly evaluate whether your algorithm can be used in EEPTPU or not.
+You can use our compiler to quickly evaluate whether your algorithm can be used in EEP-TPU or not.
 
-EEPTPU compiler supports caffe prototxt and caffemodel, if you use other frameworks, such as tensorflow, mxnet or PyTorch, you can use some tools(such as mmdnn) to convert it to caffe files.
+EEP-TPU compiler supports caffe prototxt and caffemodel, if you use other frameworks, such as tensorflow, mxnet or PyTorch, you can use some tools(such as mmdnn) to convert it to caffe files.
 
 ### Usage
 Run in x86 platform. ( we tested in ubuntu 18.04 )
@@ -36,7 +36,7 @@ options:
 ```
 
 ### Supported Layer Set
-Currently supported layer set V2.0 to run in EEPTPU, other unsupported layers can run in CPU. More layers will be supported later.
+Currently supported layer set V2.0 to run in EEP-TPU, other unsupported layers can run in CPU. More layers will be supported later.
 
 <img src="https://github.com/embedeep/Free-TPU/blob/master/wiki/eeptpu_layer_set.png">
 
