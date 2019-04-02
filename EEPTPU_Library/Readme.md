@@ -1,13 +1,13 @@
-## EEPTPU API Library
+## EEP-TPU API Library
 This is the library for EEP-TPU and FREE-TPU.
 
 For Free-TPU users, you could use the pre-compiled binary files and free-tpu IP, please refer: https://github.com/embedeep/Free-TPU
 
-For commercial users, you could use eeptpu_compiler to compile your own 'eeptpu.bin' file, and run it on commercial version EEPTPU IP.
+For commercial users, you could use eeptpu_compiler to compile your own 'eeptpu.bin' file, and run it on commercial version EEP-TPU IP.
 
-libeeptpu_arm: arm version. Such as Xilinx 7020/7035, EEPTPU is in PL.
+libeeptpu_arm: arm version. Such as Xilinx 7020/7035, EEP-TPU is in PL.
 
-libeeptpu_x86: x86 version. Such as Xilinx VC707, EEPTPU is in a PCIE card.
+libeeptpu_x86: x86 version. Such as Xilinx VC707, EEP-TPU is in a PCIE card.
 
 ### User Guide
 A simple user guide for you, please refer 'doc' folder.
