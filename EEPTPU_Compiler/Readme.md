@@ -7,6 +7,23 @@ You can use our compiler to quickly evaluate whether your algorithm can be used 
 
 EEP-TPU compiler supports caffe prototxt and caffemodel, if you use other frameworks, such as tensorflow, mxnet or PyTorch, you can use some tools(such as mmdnn) to convert it to caffe files.
 
+### Setup Environment
+- Ubuntu 18.04  ( eeptpu_compiler compiled using gcc7.3 )
+- Install protobuf
+```
+wget https://github.com/google/protobuf/releases/download/v2.6.1/protobuf-2.6.1.tar.gz
+tar xzf protobuf-2.6.1.tar.gz
+cd protobuf-2.6.1/
+./configure
+make
+sudo make install
+```
+- **Export opencv library path before running eeptpu_compiler**
+```
+export LD_LIBRARY_PATH=./libs/opencv/:$LD_LIBRARY_PATH
+# You can copy this line to ~/.bashrc
+```
+
 ### Usage
 Run in x86 platform. ( we tested in ubuntu 18.04 )
 ```
